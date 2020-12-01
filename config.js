@@ -14,14 +14,14 @@ The config.js file is used by:
 - send.js
 */
 const databaseOptions = {
-    host: 'localhost',
-    user: 'ENTER_MYSQL_ACCOUNT_NAME_HERE',
-    password: 'ENTER_MYSQL_PASSWORD_HERE'
+    host: 'eu-cdbr-west-03.cleardb.net',
+    user: 'b8041e339aa3d1',
+    password: '06634b97'
 };
 
 const TTNOptions = {
-    appID: 'ENTER_TTN_APP_ID_HERE',
-    accessKey: 'ENTER_TTN_ACCESSKEY_HERE'
+    appID: 'data_test_application',
+    accessKey: 'ttn-account-v2._6fl9v7CukvAe1uw6AtT10U_L1EaFRwq-2pWlK4dC1Q'
 };
 
-module.exports = {databaseOptions: databaseOptions, TTNOptions: TTNOptions};
+module.exports = { databaseOptions: databaseOptions, TTNOptions: TTNOptions };
